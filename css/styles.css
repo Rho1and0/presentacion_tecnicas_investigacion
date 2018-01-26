@@ -12,7 +12,7 @@ body:after {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-color: #21131196;
+  background-color: #211311BB;
 }
 .reveal p.autor {
   font-size: 0.72em !important;
@@ -39,6 +39,13 @@ body:after {
 .segundo-color {
   background-color: red;
 }
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, p, ul li {
 
+.segundo-color {
+  background-color: red;
+}
+
+h1, h2, h3, h4, h5, h6 {}
+
+.reveal h3 {
+  color: #EBC600;
 }

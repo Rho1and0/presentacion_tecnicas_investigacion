@@ -1,6 +1,6 @@
 /* global module:false */
 module.exports = function(grunt) {
-	var port = grunt.option('port') || 8000;
+	var port = grunt.option('port') || 8001;
 	var root = grunt.option('root') || '.';
 
 	if (!Array.isArray(root)) root = [root];
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 			compress: {
 				files: {
 					'css/reveal.min.css': [ 'css/reveal.css' ],
-          'css/styles.min.css': [ 'css/styles.css' ]
+          //'css/styles.min.css': [ 'css/styles.css' ]
 				}
 			}
 		},
@@ -127,7 +127,7 @@ module.exports = function(grunt) {
 				tasks: 'css-themes'
 			},
 			css: {
-				files: [ 'css/reveal.scss', 'css/styles.scss' ],
+				files: [ 'css/reveal.scss' ],
 				tasks: 'css-core'
 			},
 			html: {
