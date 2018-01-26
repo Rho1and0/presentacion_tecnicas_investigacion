@@ -49,3 +49,21 @@ h1, h2, h3, h4, h5, h6 {}
 .reveal h3 {
   color: #EBC600;
 }
+
+.pag-4-2 ul > li > ul > li,
+.pag-4-2 ul > li > ul > li > ul > li {
+  width: 33.333%;
+  float: left;
+}
+
+.pag-4-2 ul > li > ul > li > ul > li {
+  font-size: 32px;
+}
+
+.pag-4-2 ul > li > ul > li:nth-child(4) {
+  width: 100%;
+}
+
+.pag-4-4 {
+  font-size: .64em !important;
+}
